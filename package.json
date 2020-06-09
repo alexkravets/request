@@ -11,7 +11,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "eslint src/ test/ && NODE_PATH=./ NODE_CONFIG_DIR=./test/config nyc mocha --exit"
+    "test": "eslint src/ test/ && NODE_PATH=./ nyc mocha --exit"
   },
   "author": "Oleksandr Kravets <a@kra.vc>",
   "license": "ISC",
