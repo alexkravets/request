@@ -8,6 +8,7 @@
     "url": "http://github.com/alexkravets/request.git"
   },
   "directories": {
+    "src": "src",
     "test": "test"
   },
   "scripts": {
