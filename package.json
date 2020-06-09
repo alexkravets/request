@@ -1,0 +1,25 @@
+{
+  "name": "@kravc/request",
+  "version": "1.0.0",
+  "description": "Helpers to execute http and json requests",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/alexkravets/request.git"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "eslint src/ test/ && NODE_PATH=./ NODE_CONFIG_DIR=./test/config nyc mocha --exit"
+  },
+  "author": "Oleksandr Kravets <a@kra.vc>",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.2.0",
+    "mocha": "^7.1.2",
+    "nock": "^12.0.3",
+    "nyc": "^15.0.1"
+  }
+}
