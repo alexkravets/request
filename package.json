@@ -1,6 +1,6 @@
 {
   "name": "@kravc/request",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Helpers to execute http and json requests",
   "main": "src/index.js",
   "repository": {
@@ -17,10 +17,10 @@
   "author": "Oleksandr Kravets <a@kra.vc>",
   "license": "ISC",
   "devDependencies": {
-    "chai": "^4.2.0",
-    "eslint": "^7.2.0",
-    "mocha": "^7.1.2",
+    "chai": "^4.3.4",
+    "eslint": "^7.25.0",
+    "mocha": "^10.2.0",
     "nock": "^12.0.3",
-    "nyc": "^15.0.1"
+    "nyc": "^15.1.0"
   }
 }
