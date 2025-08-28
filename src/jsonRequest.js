@@ -34,7 +34,7 @@ const jsonRequest = async (logger, options) => {
         object = JSON.parse(text)
 
       } catch (error) {
-        throw new Error(`Respose body is not in a JSON format: "${text}"`)
+        throw new Error(`Response body is not in a JSON format: "${text}"`)
 
       }
     }
